@@ -25,8 +25,7 @@ function IconesRodape(props){
     return(
         <div class="icones-rodape">
             <div class="coracao-balao-aviao">
-                <IconesApenas onClick={toggle} classe={"coracao" + (state ? "red":"")} IconeNome="heart-outline"/>
-              
+                <IconesApenas classe={"coracao" + (state ? "red":"")} IconeNome="heart-outline"/>
                 <IconesApenas classe="balao" IconeNome="chatbubble-outline"/>
                 <IconesApenas classe="aviao-icone" IconeNome="paper-plane-outline"/>
             </div>
@@ -48,10 +47,13 @@ function NomeRodape(props){
 
 function ImagemPost(props){
     return(
-        <img className='img-post-2' src={props.IMAGEMDOPOST}/>)}
+        <img onClick={CLick} className='img-post-2 (state ? "red":"")' src={props.IMAGEMDOPOST}/>)}
+
+function CLick(){
+        console.log("clicou")
+}
 
 export default function Post(){
-
     const ListaPosts=[
     <TopoPost Nome="Gato" PerfilImg="meowed 1.png"/>,
     <ImagemPost IMAGEMDOPOST='post1.jpg' />,

@@ -9,8 +9,6 @@ function ComponenteCard(props){
                         </div>
                     </div>)
 }
-
-
 export default function CaixaStories(){
     const MeusStories=[
     <ComponenteCard nome="jose" imagem="9gag 1.png"/>,
@@ -21,6 +19,7 @@ export default function CaixaStories(){
     <ComponenteCard nome="maria" imagem="barked 1.png"/>,
     <ComponenteCard nome="jose" imagem="9gag 1.png"/>,
     <ComponenteCard nome="maria" imagem="barked 1.png"/>,
+    <ion-icon class="setinha" name="chevron-forward-circle-sharp"></ion-icon>,
     <ComponenteCard nome="jose" imagem="9gag 1.png"/>
     ]
 

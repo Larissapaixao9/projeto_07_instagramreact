@@ -3,7 +3,7 @@
 }
 body{
     background-color: #E5E5E5;
-    
+    font-family: 'Roboto', sans-serif;
 }
 .linha{
     border-right:  1px solid #DBDBDB;
@@ -41,6 +41,7 @@ input{
     display: flex;
     align-items: center;
     overflow-x:auto;
+    overflow: hidden;
    
 }
 .red{
@@ -165,6 +166,7 @@ input{
 .profile-nome-main-left{
     display: flex;
     justify-content: space-between;
+    
 }
 .a01{
     font-weight: 500;
@@ -192,7 +194,7 @@ input{
     font-size: 12px;
 }
 .follow, .nome-do-perfil-sug{
-    margin-left: 14%;
+    margin-left: 20%;
 }
 .t01, .ver-texto{
     display: flex;
@@ -267,8 +269,7 @@ input{
 .ver-texto{
     font-weight: 500;
     font-size: 12px;
-    
-    margin-left: 77%;
+    margin-left: 62%;
 }
 .conj{
     display: flex;
@@ -302,6 +303,14 @@ input{
     font-weight: 500;
     font-size: 12px;
     margin-top: 99%;
+}
+.setinha{
+    position: absolute;
+    left: 10%;
+    top: 16%;
+    height: 30px;
+    width: 100%;
+    color: black;
 }
 .sugg{
     display: flex;
@@ -346,11 +355,10 @@ input{
         width: 100%;
         height: 54px;
     }
-    body{
-        width: 100%;
-        height: auto;
-
+    .setinha{
+        display: none;
     }
+
     .topo{
         display: none;
     }
@@ -372,6 +380,7 @@ input{
     }
     .caixaStories{
         width: 100%;
+        margin: 42px auto;
     }
     .left{
         overflow-x: auto;
@@ -390,9 +399,7 @@ input{
    .logo-2{
        height: 29px;       
    }
-   .segundo{
-       max-width: 100%;
-   }
+
    .a{
        max-width: 100%;
    }

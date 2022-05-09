@@ -34,7 +34,7 @@ function Usuario(props){
 
     <div>
         <p clas={props.clas}>{props.nomeUsuario}</p>
-        <p clas2={props.clas}>{props.LastnameUsuario}</p>
+        <p clas2={props.clas2}>{props.LastnameUsuario}</p>
     </div>
 </div>
     )}
@@ -50,11 +50,11 @@ export default function SideBar(){
         <Sugestao clas='conjunto-imagens-5' fig='comic-2.png'/>
     ]
     const ListaSugestaoNomes=[
-        <NomePerfilSug nomen="bad.vibes.memes" classe="t03" />,
         <NomePerfilSug nomen="bad.vibes.memes" classe="t02" />,
         <NomePerfilSug nomen="bad.vibes.memes" classe="t03" />,
         <NomePerfilSug nomen="bad.vibes.memes" classe="t02" />,
         <NomePerfilSug nomen="bad.vibes.memes" classe="t03" />,
+        <NomePerfilSug nomen="bad.vibes.memes" classe="t02" />,
         <NomePerfilSug nomen="bad.vibes.memes" classe="t03" />,
         <NomePerfilSug nomen="bad.vibes.memes" classe="t02" />,
         <NomePerfilSug nomen="bad.vibes.memes" classe="t03" />,
